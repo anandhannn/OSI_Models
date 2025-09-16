@@ -1,0 +1,60 @@
+                           Comparative Analysis of OSI and TCP/IP Models
+1. Introduction
+
+Computer networks rely on layered models to standardize communication between devices. Two primary models are the OSI (Open Systems Interconnection) Model and the TCP/IP (Transmission Control Protocol/Internet Protocol) Model. Both describe how data flows across networks, but they differ in design, approach, and usage.
+
+
+2. OSI Model
+
+Developed by ISO (International Standards Organization).
+
+7 layers:
+
+Physical Layer – Transmission of raw bits (cables, signals).
+
+Data Link Layer – Error detection, MAC addressing.
+
+Network Layer – Logical addressing, routing (IP).
+
+Transport Layer – Reliability, segmentation, flow control (TCP/UDP).
+
+Session Layer – Establishing, maintaining, terminating sessions.
+
+Presentation Layer – Data translation, encryption, compression.
+
+Application Layer – End-user services (HTTP, FTP, email).
+
+
+
+3. TCP/IP Model
+
+Developed by the U.S. Department of Defense for ARPANET.
+
+4 layers:
+
+Network Access (Link) Layer – Physical transmission, MAC, error handling.
+
+Internet Layer – Logical addressing, routing (IP).
+
+Transport Layer – Reliability, segmentation (TCP/UDP).
+
+Application Layer – Protocols for communication (HTTP, FTP, DNS, SMTP).
+
+
+
+4. Comparative Analysis
+
+The OSI model is more detailed, having seven layers, while the TCP/IP model is simpler, with only four. OSI separates the session and presentation functions into individual layers, whereas TCP/IP combines them within the Application layer.
+
+The OSI model is protocol-independent, designed mainly for standardization and learning purposes, whereas TCP/IP is protocol-specific, built around Internet protocols such as TCP and IP. OSI is often considered a reference model, while TCP/IP is the actual model used for communication across the Internet.
+
+Another key point is that OSI was created by an international standards body (ISO), while TCP/IP was developed by the U.S. Department of Defense. The OSI model provides a conceptual framework, while TCP/IP offers a practical implementation.
+
+
+5. Conclusion
+
+OSI model is more conceptual and used for understanding networking principles.
+
+TCP/IP model is more practical and used in real-world communication over the Internet.
+
+Both models complement each other: OSI gives the theoretical foundation, while TCP/IP provides practical implementation.
